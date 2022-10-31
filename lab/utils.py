@@ -120,10 +120,10 @@ def plot_minimums(dataset, loss_fns, loss_fns_mins, title):
 
     plt.show(fig)
     plt.close(fig)
-    print(
-        "ME minimum: {:.2f} MSE minimum: {:.2f} Max Error minimum: {:.2f}".format(
-            *min_vals)
-    )
+#     print(
+#        "ME minimum: {:.2f} MSE minimum: {:.2f} Max Error minimum: {:.2f}".format(
+#             *min_vals)
+#     )
 
 
 def plot_gradient_steps_1d(ax, dataset, gradient_descent_fn, grad_fn, loss_fn, num_steps=100, learning_rate=1e-1):
